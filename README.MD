@@ -1,0 +1,1 @@
+ # Minima starter project
