@@ -1,18 +1,24 @@
 package main
 
 import (
+	"github.com/gominima/cors"
 	"github.com/gominima/minima"
 	"github.com/gominima/starter/middlewares"
 	"github.com/gominima/starter/routes"
-	"os"
 )
 
 func main() {
 	app := minima.New()
+	crs := cors.New()
 	app.Get("/", func(res *minima.Response, req *minima.Request) {
-		res.Status(200).Send("Hello World")
+		res.OK().Send("Hello World")
 	})
 	app.UseRouter(routes.Router())
 	app.Use(middlewares.Logger)
-	app.Listen(os.Getenv("PORT"))
+	app.Use(crs.NewCors(cors.Options{
+		AllowedOrigins:   []string{"https://localhost:3000"},
+		AllowCredentials: true,
+		Debug:            true,
+	}))
+	app.Listen(":3000")
 }
