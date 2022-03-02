@@ -1,9 +1,6 @@
 package middlewares
 
-import ("github.com/gominima/minima"
-        "github.com/fatih/color")
+import ("github.com/gominima/minima")
 
-func Logger(res *minima.Response,  req *minima.Request) {
-	color.Blue("Method %s in route :", req.Method())
-	color.Magenta(req.GetPathURL())
+func Logger(res *minima.Response,  req *minima.Request) { //custom middleware implementation
 }

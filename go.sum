@@ -10,6 +10,8 @@ github.com/gominima/minima v0.1.2-alpha.0.20220202051901-6847a56a2dd9 h1:WDi0Qvr
 github.com/gominima/minima v0.1.2-alpha.0.20220202051901-6847a56a2dd9/go.mod h1:P5UfLGNw2HbXoGrP0MOavT5mxfpMfZZHbhwCsTy257c=
 github.com/gominima/minima v0.1.2-alpha.0.20220212044950-054e20ca2c72 h1:CMtzoJb3WxDZ8X7ZlFpJTC1xdalSRG5uIZX2F1aXExo=
 github.com/gominima/minima v0.1.2-alpha.0.20220212044950-054e20ca2c72/go.mod h1:P5UfLGNw2HbXoGrP0MOavT5mxfpMfZZHbhwCsTy257c=
+github.com/gominima/minima v1.0.0 h1:sGnCU7fkXWqDYBfZVl3wBf66x2E8mGGeRw0q1FgVK3Y=
+github.com/gominima/minima v1.0.0/go.mod h1:Nfnw8mt0k0LLBDU5KSIX155a8hw01qqMZh7RhQ3VP44=
 github.com/mattn/go-colorable v0.1.9 h1:sqDoxXbdeALODt0DAeJCVp38ps9ZogZEAXjus69YV3U=
 github.com/mattn/go-colorable v0.1.9/go.mod h1:u6P/XSegPjTcexA+o6vUJrdnUu04hMope9wVRipJSqc=
 github.com/mattn/go-isatty v0.0.12/go.mod h1:cbi8OIDigv2wuxKPP5vlRcQ1OAZbq2CE4Kysco4FUpU=
